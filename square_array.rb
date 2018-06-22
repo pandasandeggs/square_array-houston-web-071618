@@ -1,4 +1,4 @@
 def square_array(arr)
-  arr.each {|number| output_arr = print number * number}
+  output_arr = arr.each {|number| print number * number}
   output_arr
   end
